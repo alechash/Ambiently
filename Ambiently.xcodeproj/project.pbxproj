@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,16 @@
 		6DE4A7EA269BAD9900D91FAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE4A7E9269BAD9900D91FAD /* ContentView.swift */; };
 		6DE4A7EC269BAD9B00D91FAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DE4A7EB269BAD9B00D91FAD /* Assets.xcassets */; };
 		6DE4A7EF269BAD9B00D91FAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DE4A7EE269BAD9B00D91FAD /* Preview Assets.xcassets */; };
+		6DE4A7F8269CDFC500D91FAD /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE4A7F7269CDFC500D91FAD /* RowView.swift */; };
+		6DE4A7FB269CE00800D91FAD /* RowItemHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE4A7FA269CE00800D91FAD /* RowItemHelper.swift */; };
+		6DE4A7FE269CE06400D91FAD /* URLImageStore in Frameworks */ = {isa = PBXBuildFile; productRef = 6DE4A7FD269CE06400D91FAD /* URLImageStore */; };
+		6DE4A800269CE06400D91FAD /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 6DE4A7FF269CE06400D91FAD /* URLImage */; };
+		6DE4A802269CE67C00D91FAD /* AccountSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE4A801269CE67C00D91FAD /* AccountSettingsView.swift */; };
+		6DE4A804269CE69200D91FAD /* AppSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE4A803269CE69200D91FAD /* AppSettingsView.swift */; };
+		6DE4A806269CE90400D91FAD /* AudioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE4A805269CE90400D91FAD /* AudioPlayerView.swift */; };
+		6DE4A810269D009A00D91FAD /* heavy_rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DE4A80F269D009A00D91FAD /* heavy_rain.mp3 */; };
+		6DE4A816269D239600D91FAD /* AudioPlaybackControlsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE4A815269D239600D91FAD /* AudioPlaybackControlsHelper.swift */; };
+		6DE4A818269D2F9E00D91FAD /* AudioPauseControlsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE4A817269D2F9E00D91FAD /* AudioPauseControlsHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +30,14 @@
 		6DE4A7EB269BAD9B00D91FAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DE4A7EE269BAD9B00D91FAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6DE4A7F0269BAD9B00D91FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DE4A7F7269CDFC500D91FAD /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		6DE4A7FA269CE00800D91FAD /* RowItemHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowItemHelper.swift; sourceTree = "<group>"; };
+		6DE4A801269CE67C00D91FAD /* AccountSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettingsView.swift; sourceTree = "<group>"; };
+		6DE4A803269CE69200D91FAD /* AppSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsView.swift; sourceTree = "<group>"; };
+		6DE4A805269CE90400D91FAD /* AudioPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerView.swift; sourceTree = "<group>"; };
+		6DE4A80F269D009A00D91FAD /* heavy_rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = heavy_rain.mp3; sourceTree = "<group>"; };
+		6DE4A815269D239600D91FAD /* AudioPlaybackControlsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlaybackControlsHelper.swift; sourceTree = "<group>"; };
+		6DE4A817269D2F9E00D91FAD /* AudioPauseControlsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPauseControlsHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DE4A800269CE06400D91FAD /* URLImage in Frameworks */,
+				6DE4A7FE269CE06400D91FAD /* URLImageStore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +75,9 @@
 				6DE4A7E7269BAD9900D91FAD /* AmbientlyApp.swift */,
 				6DE4A7E9269BAD9900D91FAD /* ContentView.swift */,
 				6DE4A7EB269BAD9B00D91FAD /* Assets.xcassets */,
+				6DE4A7F6269CDFB400D91FAD /* Views */,
 				6DE4A7F0269BAD9B00D91FAD /* Info.plist */,
+				6DE4A807269CEDA300D91FAD /* Assets */,
 				6DE4A7ED269BAD9B00D91FAD /* Preview Content */,
 			);
 			path = Ambiently;
@@ -67,6 +89,44 @@
 				6DE4A7EE269BAD9B00D91FAD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6DE4A7F6269CDFB400D91FAD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6DE4A7F9269CDFFA00D91FAD /* Helpers */,
+				6DE4A7F7269CDFC500D91FAD /* RowView.swift */,
+				6DE4A801269CE67C00D91FAD /* AccountSettingsView.swift */,
+				6DE4A805269CE90400D91FAD /* AudioPlayerView.swift */,
+				6DE4A803269CE69200D91FAD /* AppSettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6DE4A7F9269CDFFA00D91FAD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6DE4A7FA269CE00800D91FAD /* RowItemHelper.swift */,
+				6DE4A815269D239600D91FAD /* AudioPlaybackControlsHelper.swift */,
+				6DE4A817269D2F9E00D91FAD /* AudioPauseControlsHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6DE4A807269CEDA300D91FAD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6DE4A80C269CEE8900D91FAD /* Audio */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		6DE4A80C269CEE8900D91FAD /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				6DE4A80F269D009A00D91FAD /* heavy_rain.mp3 */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +145,10 @@
 			dependencies = (
 			);
 			name = Ambiently;
+			packageProductDependencies = (
+				6DE4A7FD269CE06400D91FAD /* URLImageStore */,
+				6DE4A7FF269CE06400D91FAD /* URLImage */,
+			);
 			productName = Ambiently;
 			productReference = 6DE4A7E4269BAD9900D91FAD /* Ambiently.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +176,9 @@
 				Base,
 			);
 			mainGroup = 6DE4A7DB269BAD9900D91FAD;
+			packageReferences = (
+				6DE4A7FC269CE06400D91FAD /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = 6DE4A7E5269BAD9900D91FAD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DE4A7EF269BAD9B00D91FAD /* Preview Assets.xcassets in Resources */,
+				6DE4A810269D009A00D91FAD /* heavy_rain.mp3 in Resources */,
 				6DE4A7EC269BAD9B00D91FAD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +206,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DE4A806269CE90400D91FAD /* AudioPlayerView.swift in Sources */,
 				6DE4A7EA269BAD9900D91FAD /* ContentView.swift in Sources */,
+				6DE4A804269CE69200D91FAD /* AppSettingsView.swift in Sources */,
+				6DE4A816269D239600D91FAD /* AudioPlaybackControlsHelper.swift in Sources */,
+				6DE4A818269D2F9E00D91FAD /* AudioPauseControlsHelper.swift in Sources */,
+				6DE4A7FB269CE00800D91FAD /* RowItemHelper.swift in Sources */,
+				6DE4A7F8269CDFC500D91FAD /* RowView.swift in Sources */,
 				6DE4A7E8269BAD9900D91FAD /* AmbientlyApp.swift in Sources */,
+				6DE4A802269CE67C00D91FAD /* AccountSettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +403,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6DE4A7FC269CE06400D91FAD /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6DE4A7FD269CE06400D91FAD /* URLImageStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DE4A7FC269CE06400D91FAD /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImageStore;
+		};
+		6DE4A7FF269CE06400D91FAD /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DE4A7FC269CE06400D91FAD /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6DE4A7DC269BAD9900D91FAD /* Project object */;
 }
